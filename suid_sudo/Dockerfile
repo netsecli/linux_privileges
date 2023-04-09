@@ -15,7 +15,7 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 RUN mv /etc/sudoers /etc/sudoers.bak
 ADD sudoers /etc/sudoers
 # 设置SUID权限
-RUN chmod u+s /usr/bin/vim & chmod u+s /usr/bin/bash & chmod u+s /usr/bin/more & chmod u+s /usr/bin/less & chmod u+s /usr/bin/nano & chmod u+s /usr/bin/cp & chmod u+s /usr/bin/awk & chmod u+s /usr/bin/wget & chmod u+s /usr/bin/su & chmod u+s /usr/bin/cat
+RUN chmod u+s /usr/bin/vim & chmod u+s /usr/bin/bash & chmod u+s /usr/bin/more & chmod u+s /usr/bin/less & chmod u+s /usr/bin/nano & chmod u+s /usr/bin/cp & chmod u+s /usr/bin/awk & chmod u+s /usr/bin/wget & chmod u+s /usr/bin/su & chmod u+s /usr/bin/cat & chmod u+s /usr/bin/find
 
 EXPOSE 22
 
