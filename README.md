@@ -13,6 +13,7 @@ awk
 wget
 su
 cat
+find
 ```
 <div align="center">
   <img src="https://github.com/netsecli/linux_privileges/blob/main/sudo.png">
