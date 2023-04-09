@@ -13,6 +13,9 @@ wget
 su
 cat
 ```
+<div align="center">
+  <img src="https://github.com/netsecli/linux_privileges/blob/main/sudo.png">
+</div>
 
 ## 使用方法
 ```
