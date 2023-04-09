@@ -15,8 +15,9 @@ cat
 ```
 
 ## 使用方法
-```git clone https://github.com/netsecli/linux_privileges.git
-cd linux_privileges
+```
+git clone https://github.com/netsecli/linux_privileges.git
+cd linux_privileges/suid_sudo
 docker build -t vuln_privige:v1.0 .
 docker run -d -p 2222:22 --name=vulns vuln_privige:v1.0
 ```
